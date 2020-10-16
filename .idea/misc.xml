@@ -9,7 +9,6 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka1/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka2/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix/pom.xml" />
       </list>
     </option>
