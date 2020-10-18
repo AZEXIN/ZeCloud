@@ -21,12 +21,12 @@ public class HystrixService {
      */
     @HystrixCommand(fallbackMethod = "error")
     public String getHello(){
-        String url="";//provider 中的某个接口
-        return restTemplate.getForObject("",String.class);
+        //String url="http://provider/hello";
+        return restTemplate.getForObject("http://provider/hello",String.class);
     }
 
-    public String error(){
+    public String error(Throwable t){
         // 可以从缓存中获取数据
-        return "error";
+        return "error"+t.getMessage();
     }
 }
