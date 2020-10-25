@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common" />
         <module name="provider" />
         <module name="hystrix" />
-        <module name="ZeCloud" />
         <module name="cloud" />
         <module name="eureka1" />
         <module name="consumer" />

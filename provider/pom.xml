@@ -40,6 +40,13 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <!--comm包-->
+        <dependency>
+            <groupId>org.cz</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
