@@ -9,6 +9,7 @@
         <module name="common" />
         <module name="provider" />
         <module name="hystrix" />
+        <module name="openfeign" />
         <module name="cloud" />
         <module name="eureka1" />
         <module name="consumer" />
@@ -24,6 +25,7 @@
       <module name="eureka1" options="-parameters" />
       <module name="eureka2" options="-parameters" />
       <module name="hystrix" options="-parameters" />
+      <module name="openfeign" options="-parameters" />
       <module name="provider" options="-parameters" />
     </option>
   </component>
