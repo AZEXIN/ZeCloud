@@ -26,7 +26,7 @@ public class HelloController {
 
         helloService.deleteUser(1L);
         try {
-            helloService.getByName(URLEncoder.encode("承泽","UTF-8"));
+            helloService.getByName(URLEncoder.encode("程泽","UTF-8"));
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }

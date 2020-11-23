@@ -1,7 +1,4 @@
 
-}
-java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "str".(¦ëÅÀúÿÿÿÿ8ÛÜÖÎÕ.
-H
-java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8ÛÜÖÎÕ.
-h
-java:S1128"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8ª»’ƒÓ.
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(¢›å°úÿÿÿÿ8ßØŒİ.
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(ç­€ôşÿÿÿÿ8ßØŒİ.
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(äÿáì8ßØŒİ.
