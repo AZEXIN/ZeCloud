@@ -47,4 +47,5 @@ public class HelloWorldController implements UserService {
     public void getByName(@RequestHeader("name") String name) throws UnsupportedEncodingException {
         System.out.println("---"+ URLDecoder.decode(name,"UTF-8"));
     }
+
 }
